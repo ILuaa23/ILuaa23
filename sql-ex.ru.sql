@@ -16,7 +16,7 @@ where color = 'y'
 where ((cd='12x' or cd='24x') and (price < 600))
 
 6.SELECT DISTINCT Product.maker, Laptop.speed
-FROM Product join Laptop on product.model = laptop.model
+FROM Product join Laptop on product.model = laptop.mode
 WHERE Laptop.hd >= 10
 
 
